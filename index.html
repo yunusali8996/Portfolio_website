@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo2.png" class="logo-img">
+                <!-- <img class="smallbg" src="image/bg1.png" alt=""> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="icn fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="icn fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h2> Hi, I'm Saiyad <span>Yunus</span> <br>ALi from indore </h2>
+                <div class="maintext">
+                    <p class="iam"> I'M</p> 
+                <p class="text"></p>
+                </div>                
+            </div>
+            <div class="cv-btn">
+                <a href="image/New_Resume.png" download>Download CV</a>
+            </div>
+            <a class="bottom-btn" href="#header">click to top </a> 
+        </div>
+    </div>
+    <div id="about-me">
+         <div class="container">
+            <div class="row">
+                <div class="me-1">
+                    <img src="image/img01.png" alt="">
+                </div>
+
+                <div class="me-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>Hello I am UI UX Designer, i have an Experience 5+ years, 
+                        I focusing on user experiences and design systems 
+                        for web, and mobile products.
+                    </p>
+
+                       <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTLM5</span><br></li>
+                            <li><span>CSS3</span><br></li>
+                            <li><span>javascript</span><br></li>
+                            <li><span>jquary</span><br></li>
+                            <li><span>Bootstrap</span><br></li>
+                            <li><span>Wordpress frontend</span><br></li>
+                            <li><span>Photoshop</span><br></li>
+                            <li><span>Figma</span><br></li>                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2018 - current </span><br>UI designer at Hiecor software technologys pvt ltd</li>
+                            <li><span>2017 - 2018 </span><br>Web designer at divergent softlab pvt ltd </li>                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Diploma in graphic & Web-Design</span><br>From Virtual Voyege institute of design and media and managment indore  </li>
+                            <li><span>D.C.A(Diploma in computer application)</span><br>from makanlala chaturvedi University Bhopal</li>
+                            <li><span>B.A</span><br>from SNPG collage khandwa</li>                            
+                        </ul>
+                    </div>
+
+                </div>
+                    
+            </div>
+         </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">my work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/develop contant.png" alt="">
+                    <div class="layer">
+                        <h3>html css js</h3>
+                        <p></p>
+                            <a href="image/develop contant.png" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/food triangles.png" alt="">
+                    <div class="layer">
+                        <h3>html css and js</h3>
+                        <p></p>
+                            <a href="image/food triangles.png" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/itrakemedia.png" alt="">
+                    <div class="layer">
+                        <h3>botstrap</h3>
+                        <p></p>
+                            <a href="image/itrakemedia.png" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/maxloan.png" alt="">
+                    <div class="layer">
+                        <h3>wordpress</h3>
+                        <p></p>
+                            <a href="image/maxloan.png" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/openbank.png" alt="">
+                    <div class="layer">
+                        <h3>wordpress</h3>
+                        <p></p>
+                            <a href="image/openbank.png" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/sarkari circal.png" alt="">
+                    <div class="layer">
+                        <h3>bootstrap</h3>
+                        <p></p>
+                            <a href="image/sarkari circal.png" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/hieco.png" alt="">
+                    <div class="layer">
+                        <h3>wordpress</h3>
+                        <p></p>
+                            <a href="https://hiecor.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/molanarestaurant-co-uk.png" alt="">
+                    <div class="layer">
+                        <h3>bootstrap</h3>
+                        <p></p>
+                            <a href="https://online.molanarestaurant.co.uk/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/divergentsoftlab.png" alt="">
+                    <div class="layer">
+                        <h3>wordpress</h3>
+                        <p></p>
+                            <a href="https://divergentsoftlab.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/hyprops.png" alt="">
+                    <div class="layer">
+                        <h3>wordpress</h3>
+                        <p></p>
+                            <a href="https://hyprops.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/hairformstudio.png" alt="">
+                    <div class="layer">
+                        <h3>wordpress</h3>
+                        <p></p>
+                            <a href="https://hairformstudio.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/image/nuadthaimassage.png" alt="">
+                    <div class="layer">
+                        <h3>Bootstrap</h3>
+                        <p></p>
+                            <a href="https://www.nuadthaimassage.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+                <div class="work">
+                    <img src="image/del-hiecor-biz-dashboard-product.png" alt="">
+                    <div class="layer">
+                        <h3>PHP and bootstrap </h3>
+                        <p></p>
+                            <a href="https://del.hiecor.biz/dashboard/product" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/del-hiecor-biz-all-in-one.png" alt="">
+                    <div class="layer">
+                        <h3>PHP and bootstrap </h3>
+                        <p></p>
+                            <a href="https://del.hiecor.biz/customer/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/del-hiecor-biz-contacts.png" alt="">
+                    <div class="layer">
+                        <h3>PHP and bootstrap </h3>
+                        <p></p>
+                            <a href="https://del.hiecor.biz/contacts/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/del-hiecor-biz-email.png" alt="">
+                    <div class="layer">
+                        <h3>PHP and bootstrap </h3>
+                        <p></p>
+                            <a href="https://del.hiecor.biz/email/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/del-hiecor-biz-products.png" alt="">
+                    <div class="layer">
+                        <h3>PHP and bootstrap </h3>
+                        <p></p>
+                            <a href="https://del.hiecor.biz/products/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/del-hiecor-biz-shipping.png" alt="">
+                    <div class="layer">
+                        <h3>PHP and bootstrap </h3>
+                        <p></p>
+                            <a href="https://del.hiecor.biz/shipping/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/del-hiecor-biz-settings.png" alt="">
+                    <div class="layer">
+                        <h3>PHP and bootstrap </h3>
+                        <p></p>
+                            <a href="https://del.hiecor.biz/settings/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/del-hiecor-biz-help.png" alt="">
+                    <div class="layer">
+                        <h3>PHP and bootstrap </h3>
+                        <p></p>
+                            <a href="https://del.hiecor.biz/help/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <a href="#" class="more-btn">See more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me </h1>
+                    <P><i class="fa-sharp fa-solid fa-paper-plane"></i> yunusali8996@gmail.com</P>
+                    <P><i class="fa-solid fa-square-phone"></i> 9691778954</P>
+                    <div class="social-icon">
+                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Enter name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="message" rows="6" placeholder="your message "></textarea>
+                        <button type="submit" class="btn-sbmt">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">Copyright &copy; made by yunus ali<img src="image/logo2.png" alt=""> </div>
+    </div>
+
+<script>
+    var typing=new Typed(".text", {
+        strings: [ "UI/UX Designer",],
+        typeSpeed: 100,
+        backSpeed: 40,
+        loop: true,
+    });
+ </script>
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwZT2eXrZo1WH-JF6qhclWs3Pqgnjg4vkspeIjJ-45GgvLQ4zBC6VBZv2YnEHAmjpA/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  </body>
+</html>
